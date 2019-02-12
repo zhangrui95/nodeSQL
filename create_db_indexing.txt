@@ -1,0 +1,2 @@
+CREATE INDEX idcard_index ON message ((jdoc ->> 'nodeid'));
+CREATE INDEX idxgin ON message USING gin (jdoc);

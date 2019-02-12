@@ -1,0 +1,13 @@
+{
+  "slk-message": {
+    "port": 8720
+  },
+  "slk-api": {
+    "launch": true,
+    "port": 8722
+  },
+  "slk-admin": {
+    "launch": true,
+    "port": 8724
+  }
+}

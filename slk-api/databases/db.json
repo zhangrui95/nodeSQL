@@ -1,0 +1,120 @@
+{
+  "own": {
+    "aqzxUrl": "http://192.168.3.202:8100/"
+  },
+  "system": {
+    "xmpp_api": "http://192.168.3.202:8500",
+    "update_server": "http://172.19.12.206:8000/info.json",
+    "xmpp_query": "http://192.168.3.202:9200/index_smart1018/_search",
+    "ywzx": "http://192.168.3.202:7400",
+    "login_server": "http://192.168.3.202:8100",
+    "xmpp_server": "192.168.3.202",
+    "type": "system",
+    "xmpp_save": "http://192.168.3.202:9200/index_smart1018/my_type/",
+    "jz_search": "http://192.168.3.4:7200/information/informationSearchGet",
+    "huaci": {
+      "status": true,
+      "huaci_list": [
+        {
+          "showtext": "复制",
+          "cid": 101
+        },
+        {
+          "api": "http://192.168.3.202:7100",
+          "showtext": "背景信息",
+          "cid": 102
+        },
+        {
+          "api": "http://192.168.3.202:7100",
+          "showtext": "测试一下",
+          "cid": 103
+        }
+      ]
+    }
+  },
+  "update": {
+    "android": {
+      "last_version": "1.2.3.4",
+      "desc": "测试更新",
+      "apk": "http://192.168.3.230/SmartLinkey1.0.7.apk"
+    },
+    "electron": [
+      {
+        "desc": "性能优化",
+        "from": "1.0.1",
+        "md5": "beae0497c0baaa8cea495d451edab2b3",
+        "package": "http://127.0.0.1:8000/path/to/package.zip",
+        "package_size": 84279008,
+        "ready": true,
+        "to": "1.0.3"
+      },
+      {
+        "desc": "修复BUG",
+        "from": "1.0.2",
+        "md5": "beae0497c0baaa8cea495d451edab2b3",
+        "package": "http://127.0.0.1:8000/path/to/package.zip",
+        "package_size": 84279008,
+        "ready": true,
+        "to": "1.0.3"
+      }
+    ]
+  },
+  "third": [
+    {
+      "api": "http://192.168.3.4:7200",
+      "unique": "109006",
+      "name": "卷宗",
+      "icon": "juanzong",
+      "goto": "http://192.168.3.75:8000/#/user/loginbytoken?type=4&token="
+    },
+    {
+      "api": "http://192.168.3.115:8083/HCRFID",
+      "unique": "109003",
+      "name": "涉案财物",
+      "icon": "sheancaiwu",
+      "goto": "http://192.168.3.118:8082/HCRFID/smartlinkey/smartlinkeyLoign.do?type=0&userCodeMD="
+    },
+    {
+      "api": "",
+      "unique": "109004",
+      "name": "办案区",
+      "icon": "bananqu",
+      "goto": "http://192.168.3.201/#/user/loginBytoken?token="
+    },
+    {
+      "api": "",
+      "unique": "109002",
+      "name": "案件流程",
+      "icon": "anjian",
+      "goto": "http://192.168.3.118:8080/Manager/smartlinkeyLoign?type=0&token="
+    },
+    {
+      "api": "",
+      "unique": "109005",
+      "name": "智慧案管",
+      "icon": "anguan",
+      "goto": "http://192.168.3.201:97/#/loginByToken?type=0&token="
+    },
+    {
+      "api": "",
+      "unique": "109001",
+      "name": "智慧警情",
+      "icon": "jingqing",
+      "goto": "http://192.168.3.118:8092/JQCL/userlogin/smartlinkeyLoign?type=0&token="
+    },
+    {
+      "name": "Test系统",
+      "unique": "109666",
+      "api": "111",
+      "goto": "111",
+      "icon": "zzz"
+    },
+    {
+      "name": "涉案财物管理系统",
+      "unique": "109999",
+      "api": "是大大方方",
+      "goto": "打发",
+      "icon": "aaaa"
+    }
+  ]
+}
